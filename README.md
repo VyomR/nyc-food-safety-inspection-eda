@@ -73,12 +73,12 @@ Using only information available before an inspection, can we predict which New 
 |---|---|---|---|---|
 | Do-nothing (random order) | 0.213 | 0.50 | 10% | 20% |
 | Rule of thumb (previous score) | 0.279 | 0.57 | 16% | 29% |
-| **Logistic regression (baseline)** | **0.356** | **0.68** | **20%** | **35%** |
+| **Logistic regression (baseline)** | **0.355** | **0.68** | **20%** | **35%** |
 
 ![Baseline evaluation](images/baseline_evaluation.png)
 
 * **In plain terms:** visiting the riskiest 10% of restaurants first, **43% of visits** would find a serious failure, versus **21%** at random, about **twice the hit rate**. Visiting the riskiest 20% finds 35% of all serious failures.
-* Time-ordered cross-validation on the training period gives PR-AUC **0.297 ± 0.046**, so the improvement is consistent over time.
+* Time-ordered cross-validation on the training period gives PR-AUC **0.297 ± 0.046**, and the model beats both reference approaches in every one of the 5 folds, so the improvement is consistent over time.
 * The model's top risk factors match the EDA: poor history, pests, temperature problems, summer months, and certain cuisines. Larger chains and a long record of clean inspections lower the risk.
 ![Baseline risk factors](images/baseline_odds_ratios.png)
 
