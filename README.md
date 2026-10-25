@@ -2,7 +2,7 @@
 
 **Vyom Rawat**
 
-*Predicting which New York City restaurants will seriously fail their next health inspection. UC Berkeley Professional Certificate in Machine Learning and Artificial Intelligence, Capstone Assignment 20.1 (Initial Report and EDA). The final model and non-technical report will follow in a companion repository, nyc-food-safety-inspection-model (Module 24).*
+*Predicting which New York City restaurants will seriously fail their next health inspection. UC Berkeley Professional Certificate in Machine Learning and Artificial Intelligence, Capstone Assignment 20.1 (Initial Report and EDA). This is Part 1 of the project; the final model and non-technical report are in Part 2: [nyc-food-safety-inspection-part-2](https://github.com/VyomR/nyc-food-safety-inspection-part-2).*
 
 #### Executive summary
 
